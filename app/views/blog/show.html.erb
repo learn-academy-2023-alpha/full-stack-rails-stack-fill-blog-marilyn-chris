@@ -1,3 +1,5 @@
 <h2> <%= @blog.title %> </h2>
 <p> <%= @blog.content %> </p>
 <p><%= link_to 'Return to Home!', blogs_path %> </p>
+
+<p> <%= button_to 'Delete Blog Post', delete_blog_path, method: :delete %> </p>
