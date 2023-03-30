@@ -93,10 +93,10 @@ Acceptance Criteria
 
 Acceptance Criteria
 
-[] Has a controller action for update
-[] Has a route for update
-[] Can fill out a form to edit an existing blog post and click on a submit button that will trigger an update action
-[] Can be rerouted to the landing page when a valid blog post is updated
+[x] Has a controller action for update
+[x] Has a route for update
+[x] Can fill out a form to edit an existing blog post and click on a submit button that will trigger an update action
+[x] Can be rerouted to the landing page when a valid blog post is updated
 
 
 ## Story 8: In order to create a secure blog post application, as a developer of the application, I need to ensure only valid data is entered into the database.
