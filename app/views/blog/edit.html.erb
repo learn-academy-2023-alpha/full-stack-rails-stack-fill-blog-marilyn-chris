@@ -1,0 +1,12 @@
+<h2> <%= @blog.title %> </h2>
+<p> <%= @blog.content %> </p>
+
+<%= form_with model: @blog do |form| %>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+    <%= form.label :content %>
+    <%= form.text_field :content %>
+    <%= form.submit 'Edit Blog' %>
+<% end %>  
+
+<p><%= link_to 'Return to Post!', blog_path(@blog.id) %>  </p>
