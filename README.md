@@ -65,11 +65,11 @@ Acceptance Criteria
 
 Acceptance Criteria
 
-[] Has a controller action for delete
-[] Has a route for delete
-[] Can see a button on the show page to delete the blog post
-[] Can click on the button to perform a delete action
-[] Can be rerouted to the landing page when a blog post is deleted
+[x] Has a controller action for delete
+[x] Has a route for delete
+[x] Can see a button on the show page to delete the blog post
+[x] Can click on the button to perform a delete action
+[x] Can be rerouted to the landing page when a blog post is deleted
 
 
 ## Story 6: In order to interact with the blog post application, as a user of the application, I need to see a form where I can fill out information to edit an existing blog post.
