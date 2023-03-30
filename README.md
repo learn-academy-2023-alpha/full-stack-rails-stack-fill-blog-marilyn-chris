@@ -36,13 +36,13 @@ Acceptance Criteria
 
 Acceptance Criteria
 
-[] Has a controller action for new
-[] Has a route for new
-[] Has a view for new
-[] Can navigate from the landing page to the view of the new page
-[] Can see a form for title and content
-[] Can see a submit button
-[] Can navigate back from the new page to the landing page
+[x] Has a controller action for new
+[x] Has a route for new
+[x] Has a view for new
+[x] Can navigate from the landing page to the view of the new page
+[x] Can see a form for title and content
+[x] Can see a submit button
+[x] Can navigate back from the new page to the landing page
 
 
 ## Story 4: In order to interact with the blog post application, as a user of the application, I need to create a new blog post.
@@ -51,10 +51,10 @@ Acceptance Criteria
 
 Acceptance Criteria
 
-[] Has a controller action for create
-[] Has a route for create
-[] Can fill out a form for a new blog post and click on a submit button that will trigger a create action
-[] Can be rerouted to the landing page when a valid blog post is created
+[x] Has a controller action for create
+[x] Has a route for create
+[x] Can fill out a form for a new blog post and click on a submit button that will trigger a create action
+[x] Can be rerouted to the landing page when a valid blog post is created
 
 
 # 🏔 Stretch Goals
