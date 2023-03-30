@@ -24,6 +24,11 @@ class BlogController < ApplicationController
             redirect_to blogs_path
         end
     end
+
+    def edit
+      @blog = Blog.find(params[:id])
+    end
+    
 private
     def blog_params
         params.require(:blog).permit(:title, :content)
